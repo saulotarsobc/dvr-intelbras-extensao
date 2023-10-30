@@ -1,0 +1,25 @@
+{
+  "name": "dvr-intelbras-extensao",
+  "version": "1.0.0",
+  "description": "Para facilitar o contole PTZ do DVR intelbras via navegador",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulotarsobc/dvr-intelbras-extensao.git"
+  },
+  "keywords": [
+    "intelbras",
+    "extensao",
+    "libras",
+    "preset"
+  ],
+  "author": "Saulo Costa <saulotarsobc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saulotarsobc/dvr-intelbras-extensao/issues"
+  },
+  "homepage": "https://github.com/saulotarsobc/dvr-intelbras-extensao#readme"
+}

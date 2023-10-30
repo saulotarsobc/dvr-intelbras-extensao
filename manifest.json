@@ -1,13 +1,18 @@
 {
   "manifest_version": 3,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Libras - Intelbras",
   "short_name": "Libras - Intelbras",
   "description": "Para facilitar o contole PTZ do DVR intelbras via navegador",
   "icons": {
-    "128": "/img/camera-de-seguranca.png"
+    "128": "/img/dvr-intelbras-extensao-128.png"
   },
-  "action": {},
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "img/dvr-intelbras-extensao-128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": [
@@ -22,13 +27,11 @@
     }
   ],
   "permissions": [],
-  "host_permissions": [
-    "*"
-  ],
+  "host_permissions": [],
   "web_accessible_resources": [
     {
       "resources": [
-        "/images/warning.png"
+        "/img/dvr-intelbras-extensao-128.png"
       ],
       "matches": [
         "<all_urls>"

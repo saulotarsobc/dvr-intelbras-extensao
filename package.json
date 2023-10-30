@@ -1,14 +1,14 @@
 {
-  "name": "dvr-intelbras-extensao",
+  "name": "dvr-intelbras-extensao-128",
   "version": "1.0.0",
   "description": "Para facilitar o contole PTZ do DVR intelbras via navegador",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass -w scss/main.scss css/main.min.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saulotarsobc/dvr-intelbras-extensao.git"
+    "url": "git+https://github.com/saulotarsobc/dvr-intelbras-extensao-128.git"
   },
   "keywords": [
     "intelbras",
@@ -19,7 +19,7 @@
   "author": "Saulo Costa <saulotarsobc@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saulotarsobc/dvr-intelbras-extensao/issues"
+    "url": "https://github.com/saulotarsobc/dvr-intelbras-extensao-128/issues"
   },
-  "homepage": "https://github.com/saulotarsobc/dvr-intelbras-extensao#readme"
+  "homepage": "https://github.com/saulotarsobc/dvr-intelbras-extensao-128#readme"
 }

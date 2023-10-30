@@ -1,7 +1,9 @@
-const datalist = document.querySelector("datalist");
+const main = async () => {
+  console.log('main');
+}
 
-const pessoas = ["Home", "Aline", "Jaqueline", "Geise", "Saulo", "Filipe", "Sargio", "Sarah", "Rose", "Jhonatas", "Zilene", "Paulo H", "Jeferson", "Neia"]
+main();
 
-pessoas.forEach(pessoa => {
-    datalist.innerHTML += `<option value="${pessoa}"/>`;
-});
+/* observer */
+const observer = new MutationObserver(main);
+observer.observe(document.body, { childList: true, subtree: true });

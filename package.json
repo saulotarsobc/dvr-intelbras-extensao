@@ -4,7 +4,7 @@
   "description": "Para facilitar o contole PTZ do DVR intelbras via navegador",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w scss/main.scss css/main.min.css"
+    "sass": "sass -w scss/main.scss css/main.min.css -s compressed"
   },
   "repository": {
     "type": "git",

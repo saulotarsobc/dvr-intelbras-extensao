@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Libras - Intelbras",
   "short_name": "Libras - Intelbras",
   "description": "Para facilitar o contole PTZ do DVR intelbras via navegador",

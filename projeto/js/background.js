@@ -2,7 +2,6 @@ chrome.runtime.onInstalled.addListener(() => {
     console.log('Service worker instalado!');
 });
 
-
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type === 'achieved_condition') {
 

@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
-  "version": "1.0.7",
+  "version": "1.0.9",
   "name": "Libras - Intelbras",
   "short_name": "Libras - Intelbras",
   "description": "Para facilitar o contole PTZ do DVR intelbras via navegador",
+  "author": "Saulo Costa",
   "icons": {
     "128": "/img/dvr-intelbras-extensao-128.png"
   },
@@ -26,7 +27,12 @@
       ]
     }
   ],
-  "permissions": [],
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "tabGroups"
+  ],
   "host_permissions": [],
   "web_accessible_resources": [
     {

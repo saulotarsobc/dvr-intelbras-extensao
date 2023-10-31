@@ -8,11 +8,9 @@ console.log(email);
 
 img.addEventListener("click", () => {
   console.log(img.src);
-})
-
+});
 
 // Execute a função inicialmente
-// checkQueueElementsForNotification();
 main();
 
 // Configura um MutationObserver para aplicar o estilo aos novos elementos adicionados com a classe 'atend_aguard'

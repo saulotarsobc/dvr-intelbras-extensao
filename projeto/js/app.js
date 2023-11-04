@@ -1,19 +1,21 @@
 function main() {
-  console.log(["main", 234]);
+  console.log("✅ Iniciando...");
 }
 
-const email = document.querySelector("#email");
-const img = document.querySelector("img");
-console.log(email);
+const addListeners = () => {
+  document.querySelector("img")?.addEventListener("click", (el) => {
+    console.log("✅ Clicado", el.target);
+  });
+};
 
-img.addEventListener("click", () => {
-  console.log(img.src);
-});
+setTimeout(() => {
+  addListeners();
+}, 3000);
 
 // Execute a função inicialmente
 main();
 
-// Configura um MutationObserver para aplicar o estilo aos novos elementos adicionados com a classe 'atend_aguard'
+// MutationObserver
 const observer = new MutationObserver(main);
 observer.observe(document.body, {
   childList: true,
